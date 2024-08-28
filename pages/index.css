@@ -164,26 +164,28 @@
 
 .recipes__videos {
   display: flex;
-  flex-direction: column;
+  flex-direction: row;
+  justify-content: center;
   column-gap: 40px;
-  max-width: 480px;
-  max-height: 273px;
 }
 
 .recipes__video-item {
+  display: flex;
+  justify-content: center;
+  flex-direction: column;
   max-width: 480px;
-  max-height: 273px;
+  width: 100%;
+  margin-top: 80px;
+  margin-bottom: 215px;
 }
 
 .recipes__iframe {
-  margin-top: 80px;
-  margin-bottom: 215px;
+  border: 0;
 }
 
 .recipes__video-caption {
   display: flex;
   justify-content: space-between;
-  max-width: 480px;
   font-family: "Inter";
   font-style: normal;
   font-weight: 500;
