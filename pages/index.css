@@ -69,7 +69,7 @@
   letter-spacing: -1px;
 }
 
-.header__title_span-accent {
+.header__span-accent {
   font-family: "Noto Serif", "Times New Roman", serif;
   font-style: italic;
   font-weight: normal;
@@ -97,7 +97,7 @@
   height: 568px;
 }
 
-.header__header-footer {
+.header__footer {
   display: flex;
   justify-content: space-between;
   align-items: flex-end;
@@ -109,7 +109,7 @@
   width: 100%;
 }
 
-.header__header-footer__paragraph {
+.header__paragraph {
   padding: 0;
   margin-right: 80px;
   margin-top: 0;
@@ -171,8 +171,8 @@
 
 .recipes__video-item {
   display: flex;
-  justify-content: center;
   flex-direction: column;
+  justify-content: center;
   max-width: 480px;
   width: 100%;
   margin-top: 80px;
