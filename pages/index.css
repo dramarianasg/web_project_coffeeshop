@@ -209,7 +209,7 @@
 
 .reservation__title {
   text-align: center;
-  margin-top: 100px;
+  margin: 100px 0 80px 0;
   font-family: Inter;
   font-style: normal;
   font-weight: 500;
@@ -220,7 +220,7 @@
 .reservation__form {
   display: flex;
   justify-content: center;
-  margin-top: 80px;
+  margin: 0x;
   padding: 0;
   height: 100vh;
 }
