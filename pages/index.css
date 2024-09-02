@@ -220,7 +220,7 @@
 .reservation__form {
   display: flex;
   justify-content: center;
-  margin-top: 80p;
+  margin-top: 80px;
   padding: 0;
   height: 100vh;
 }
