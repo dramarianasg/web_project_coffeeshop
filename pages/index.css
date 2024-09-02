@@ -132,8 +132,6 @@
   position: relative;
   box-sizing: border-box;
   height: 100vh;
-  min-height: 720px;
-  max-height: 800px;
 }
 
 .recipes__title {
@@ -192,4 +190,115 @@
   font-size: 20px;
   line-height: 30px;
   color: #ffffff;
+}
+
+.reservation {
+  background-image: url("../images/background_reservation.svg");
+  background-repeat: no-repeat;
+  background-position: center;
+  background-color: #d9e7ff;
+  background-size: cover;
+  display: flex;
+  flex-direction: column;
+  position: relative;
+  box-sizing: border-box;
+  height: 100vh;
+  margin: 0;
+  padding: 0;
+}
+
+.reservation__title {
+  text-align: center;
+  margin-top: 100px;
+  margin-bottom: 80px;
+  font-family: Inter;
+  font-style: normal;
+  font-weight: 500;
+  font-size: 44px;
+  line-height: 52px;
+}
+
+.reservation__form {
+  display: flex;
+  justify-content: center;
+  margin: 0;
+  padding: 0;
+  height: 100vh;
+}
+
+.reservation__fieldset {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  margin: 0 0 128px 0;
+  border: 0;
+  padding: 0%;
+  max-width: 385px;
+  width: 100vh;
+}
+
+.form__label {
+  font-family: Inter;
+  font-style: normal;
+  font-weight: 500;
+  font-size: 16px;
+  line-height: 20px;
+  margin-bottom: 8px;
+  margin-top: 0px;
+}
+
+.form__input {
+  margin-bottom: 32px;
+  height: 60px;
+  padding: 0;
+  border-radius: 4px;
+  font-family: Inter;
+  font-style: normal;
+  font-weight: normal;
+  font-size: 20px;
+  line-height: 30px;
+}
+
+.form__input::placeholder {
+  padding-left: 20px;
+  margin-top: 15px;
+  color: #838383;
+}
+
+.form__button {
+  max-width: 385px;
+  width: 100%;
+  margin: 32px 0;
+  background-color: #2f80ed;
+  color: white;
+  font-family: Inter;
+  font-style: normal;
+  font-weight: 500;
+  font-size: 16px;
+  line-height: 20px;
+  height: 60px;
+  border-radius: 4px;
+  opacity: 100%;
+}
+
+.form__button:hover {
+  opacity: 70%;
+}
+
+.form__checkbox {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  gap: 12px;
+}
+
+.form__checkbox input[type="checkbox"] {
+  width: 20px;
+  height: 20px;
+  border-radius: 2px;
+}
+
+.form__checkbox input[type="checkbox"]:checked {
+  background-color: #2f80ed;
+  background-image: url(../images/check.svg);
 }
