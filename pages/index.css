@@ -225,7 +225,7 @@
   height: 100vh;
 }
 
-.reservation__fieldset {
+.reservation__input-container {
   display: flex;
   flex-direction: column;
   justify-content: center;
